@@ -3,7 +3,7 @@ from datetime import datetime
 import statistics
 
 # Загрузка данных из CSV файла
-df = pd.read_csv('ufo.csv', sep=',')
+df = pd.read_csv('e:/ufo.csv', sep=',')
 
 # Преобразование времени к формату datetime
 df['Time'] = pd.to_datetime(df['Time'])
